@@ -1,0 +1,6 @@
+module add_sub(input logic [7:0] A,S,output logic [8:0] Out);
+
+logic Aext,Sext;
+assign Aext = A[7];
+assign Sext = S[7];
+always_comb

@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/lab6 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/lab6/HexDriver.sv}
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/lab6 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/lab6/multiplier.sv}
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/lab6 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/lab6/reg_8.sv}
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/lab6 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/lab6/add_sub.sv}
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/lab6 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/lab6/FA.sv}
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/lab6 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/lab6/Dreg.sv}
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/Lab4 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/Lab4/counter.sv}
+vlog -sv -work work +incdir+C:/Users/Lavin/Dropbox/ECE298\ Lab/ECE298/Lab4 {C:/Users/Lavin/Dropbox/ECE298 Lab/ECE298/Lab4/control_1.sv}
+

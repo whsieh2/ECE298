@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.0/ece298/2Bit_Adder/full_adder.sv
+source_file = 1, C:/altera/13.0/ece298/2Bit_Adder/adder2.sv
+source_file = 1, C:/altera/13.0/ece298/2Bit_Adder/db/adder2.cbx.xml
+design_name = adder2
+instance = comp, \B[0]~I , B[0], adder2, 1
+instance = comp, \c_in~I , c_in, adder2, 1
+instance = comp, \A[0]~I , A[0], adder2, 1
+instance = comp, \FA0|s~0 , FA0|s~0, adder2, 1
+instance = comp, \B[1]~I , B[1], adder2, 1
+instance = comp, \A[1]~I , A[1], adder2, 1
+instance = comp, \FA0|c~0 , FA0|c~0, adder2, 1
+instance = comp, \FA1|s , FA1|s, adder2, 1
+instance = comp, \FA1|c~0 , FA1|c~0, adder2, 1
+instance = comp, \S[0]~I , S[0], adder2, 1
+instance = comp, \S[1]~I , S[1], adder2, 1
+instance = comp, \c_out~I , c_out, adder2, 1

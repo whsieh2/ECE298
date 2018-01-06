@@ -1,0 +1,8 @@
+module control(input logic ClearA_LoadB, Run, Reset, Clk, M, output logic fn, shift, ClearA, LoadB);
+
+always @ (posedge Clk or posedge Run or posedge Reset or posedge ClearA_LoadB) 
+
+begin
+	if (ClearA_LoadB)
+		ClearA = 1'b1;
+	

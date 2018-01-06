@@ -1,0 +1,88 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+# File: C:\altera\13.0\ece298\brickbreaker\pinAssignments.csv
+# Generated on: Tue May 06 20:28:18 2014
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair
+Blue[9],Output,PIN_B12,3,B3_N0,PIN_B12,,,,
+Blue[8],Output,PIN_C12,3,B3_N0,PIN_C12,,,,
+Blue[7],Output,PIN_B11,3,B3_N0,PIN_B11,,,,
+Blue[6],Output,PIN_C11,3,B3_N0,PIN_C11,,,,
+Blue[5],Output,PIN_J11,3,B3_N0,PIN_J11,,,,
+Blue[4],Output,PIN_J10,3,B3_N0,PIN_J10,,,,
+Blue[3],Output,PIN_G12,3,B3_N0,PIN_G12,,,,
+Blue[2],Output,PIN_F12,3,B3_N0,PIN_F12,,,,
+Blue[1],Output,PIN_J14,3,B3_N0,PIN_J14,,,,
+Blue[0],Output,PIN_J13,3,B3_N0,PIN_J13,,,,
+Clk,Input,PIN_N2,2,B2_N1,PIN_N2,,,,
+Green[9],Output,PIN_D12,3,B3_N0,PIN_D12,,,,
+Green[8],Output,PIN_E12,3,B3_N0,PIN_E12,,,,
+Green[7],Output,PIN_D11,3,B3_N0,PIN_D11,,,,
+Green[6],Output,PIN_G11,3,B3_N0,PIN_G11,,,,
+Green[5],Output,PIN_A10,3,B3_N0,PIN_A10,,,,
+Green[4],Output,PIN_B10,3,B3_N0,PIN_B10,,,,
+Green[3],Output,PIN_D10,3,B3_N0,PIN_D10,,,,
+Green[2],Output,PIN_C10,3,B3_N0,PIN_C10,,,,
+Green[1],Output,PIN_A9,3,B3_N0,PIN_A9,,,,
+Green[0],Output,PIN_B9,3,B3_N0,PIN_B9,,,,
+Red[9],Output,PIN_E10,3,B3_N0,PIN_E10,,,,
+Red[8],Output,PIN_F11,3,B3_N0,PIN_F11,,,,
+Red[7],Output,PIN_H12,3,B3_N0,PIN_H12,,,,
+Red[6],Output,PIN_H11,3,B3_N0,PIN_H11,,,,
+Red[5],Output,PIN_A8,3,B3_N0,PIN_A8,,,,
+Red[4],Output,PIN_C9,3,B3_N1,PIN_C9,,,,
+Red[3],Output,PIN_D9,3,B3_N1,PIN_D9,,,,
+Red[2],Output,PIN_G10,3,B3_N1,PIN_G10,,,,
+Red[1],Output,PIN_F10,3,B3_N1,PIN_F10,,,,
+Red[0],Output,PIN_C8,3,B3_N1,PIN_C8,,,,
+Reset,Input,PIN_G26,5,B5_N0,PIN_G26,,,,
+VGA_clk,Output,PIN_B8,3,B3_N0,PIN_B8,,,,
+blank,Output,PIN_D6,3,B3_N1,PIN_D6,,,,
+hs,Output,PIN_A7,3,B3_N1,PIN_A7,,,,
+ps2clk,Input,PIN_D26,5,B5_N0,PIN_D26,,,,
+ps2data,Input,PIN_C24,5,B5_N0,PIN_C24,,,,
+sR1hexL[6],Output,PIN_Y24,6,B6_N1,PIN_Y24,,,,
+sR1hexL[5],Output,PIN_AB25,6,B6_N1,PIN_AB25,,,,
+sR1hexL[4],Output,PIN_AB26,6,B6_N1,PIN_AB26,,,,
+sR1hexL[3],Output,PIN_AC26,6,B6_N1,PIN_AC26,,,,
+sR1hexL[2],Output,PIN_AC25,6,B6_N1,PIN_AC25,,,,
+sR1hexL[1],Output,PIN_V22,6,B6_N1,PIN_V22,,,,
+sR1hexL[0],Output,PIN_AB23,6,B6_N1,PIN_AB23,,,,
+sR1hexU[6],Output,PIN_W24,6,B6_N1,PIN_W24,,,,
+sR1hexU[5],Output,PIN_U22,6,B6_N1,PIN_U22,,,,
+sR1hexU[4],Output,PIN_Y25,6,B6_N1,PIN_Y25,,,,
+sR1hexU[3],Output,PIN_Y26,6,B6_N1,PIN_Y26,,,,
+sR1hexU[2],Output,PIN_AA26,6,B6_N1,PIN_AA26,,,,
+sR1hexU[1],Output,PIN_AA25,6,B6_N1,PIN_AA25,,,,
+sR1hexU[0],Output,PIN_Y23,6,B6_N1,PIN_Y23,,,,
+sR2hexL[6],Output,PIN_V13,8,B8_N0,PIN_V13,,,,
+sR2hexL[5],Output,PIN_V14,8,B8_N0,PIN_V14,,,,
+sR2hexL[4],Output,PIN_AE11,8,B8_N0,PIN_AE11,,,,
+sR2hexL[3],Output,PIN_AD11,8,B8_N0,PIN_AD11,,,,
+sR2hexL[2],Output,PIN_AC12,8,B8_N0,PIN_AC12,,,,
+sR2hexL[1],Output,PIN_AB12,8,B8_N0,PIN_AB12,,,,
+sR2hexL[0],Output,PIN_AF10,8,B8_N0,PIN_AF10,,,,
+sR2hexU[6],Output,PIN_AB24,6,B6_N1,PIN_AB24,,,,
+sR2hexU[5],Output,PIN_AA23,6,B6_N1,PIN_AA23,,,,
+sR2hexU[4],Output,PIN_AA24,6,B6_N1,PIN_AA24,,,,
+sR2hexU[3],Output,PIN_Y22,6,B6_N1,PIN_Y22,,,,
+sR2hexU[2],Output,PIN_W21,6,B6_N1,PIN_W21,,,,
+sR2hexU[1],Output,PIN_V21,6,B6_N1,PIN_V21,,,,
+sR2hexU[0],Output,PIN_V20,6,B6_N1,PIN_V20,,,,
+sync,Output,PIN_B7,3,B3_N1,PIN_B7,,,,
+vs,Output,PIN_D8,3,B3_N1,PIN_D8,,,,

@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0\ece298\2Bit_Adder\simulation\modelsim
+vadder2
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 o3I]^e]3@3XiJ^4f@7Q8A1
+I1cinMOYGjIiEXLK1W6Ae=0
+VP>GL<EFd95dYkTb;LiWbd1
+!s105 adder2_sv_unit
+S1
+Z2 dC:\altera\13.0\ece298\2Bit_Adder\simulation\modelsim
+w1392268103
+8C:/altera/13.0/ece298/2Bit_Adder/adder2.sv
+FC:/altera/13.0/ece298/2Bit_Adder/adder2.sv
+L0 1
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1392268835.940000
+!s107 C:/altera/13.0/ece298/2Bit_Adder/adder2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0/ece298/2Bit_Adder|C:/altera/13.0/ece298/2Bit_Adder/adder2.sv|
+!s101 -O0
+Z4 o-sv -work work -O0
+Z5 !s92 -sv -work work +incdir+C:/altera/13.0/ece298/2Bit_Adder -O0
+vfull_adder
+R1
+I:1kK]nj:=Bi8nU28eId5f3
+V[T5OE5g>FjJWW79mUzPAY3
+S1
+R2
+w1392268029
+8C:/altera/13.0/ece298/2Bit_Adder/full_adder.sv
+FC:/altera/13.0/ece298/2Bit_Adder/full_adder.sv
+L0 1
+R3
+r1
+31
+R4
+!i10b 1
+!s100 aGcGeFImGgUN`PQ_N?8mN1
+!s105 full_adder_sv_unit
+!s85 0
+!s108 1392268835.870000
+!s107 C:/altera/13.0/ece298/2Bit_Adder/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/altera/13.0/ece298/2Bit_Adder|C:/altera/13.0/ece298/2Bit_Adder/full_adder.sv|
+!s101 -O0
+R5

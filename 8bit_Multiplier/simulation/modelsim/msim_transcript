@@ -1,0 +1,114 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do multiplier_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/altera/13.0/ece298/6\ final {C:/altera/13.0/ece298/6 final/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# vlog -sv -work work +incdir+C:/altera/13.0/ece298/6\ final {C:/altera/13.0/ece298/6 final/multiplier.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# vlog -sv -work work +incdir+C:/altera/13.0/ece298/6\ final {C:/altera/13.0/ece298/6 final/reg_8.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# vlog -sv -work work +incdir+C:/altera/13.0/ece298/6\ final {C:/altera/13.0/ece298/6 final/add_sub.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module add_sub
+# 
+# Top level modules:
+# 	add_sub
+# vlog -sv -work work +incdir+C:/altera/13.0/ece298/6\ final {C:/altera/13.0/ece298/6 final/FA.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# vlog -sv -work work +incdir+C:/altera/13.0/ece298/6\ final {C:/altera/13.0/ece298/6 final/Dreg.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Dreg
+# 
+# Top level modules:
+# 	Dreg
+# vlog -sv -work work +incdir+C:/altera/13.0/ece298/6\ final {C:/altera/13.0/ece298/6 final/control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# 
+vsim work.multiplier
+# vsim work.multiplier 
+# Loading sv_std.std
+# Loading work.multiplier
+# Loading work.control
+# Loading work.add_sub
+# Loading work.FA
+# Loading work.Dreg
+# Loading work.reg_8
+# Loading work.HexDriver
+# ** Warning: (vsim-3017) C:/altera/13.0/ece298/6 final/multiplier.sv(41): [TFMPC] - Too few port connections. Expected 11, found 10.
+# 
+#         Region: /multiplier/control_unit
+# ** Warning: (vsim-3722) C:/altera/13.0/ece298/6 final/multiplier.sv(41): [TFMPC] - Missing connection for port 'counter_r'.
+# 
+# ** Warning: (vsim-3017) C:/altera/13.0/ece298/6 final/add_sub.sv(50): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /multiplier/nine_bit/nine
+# ** Warning: (vsim-3722) C:/altera/13.0/ece298/6 final/add_sub.sv(50): [TFMPC] - Missing connection for port 'c'.
+# 
+view wave 
+# .main_pane.wave.interior.cs.body.pw.wf
+wave clipboard store
+wave create -driver freeze -pattern constant -value zzzzzzzz -range 7 0 -starttime 0ns -endtime 1000ns sim:/multiplier/S 
+WaveExpandAll -1
+# 1
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns sim:/multiplier/Clk 
+wave create -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns sim:/multiplier/Run 
+wave create -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns sim:/multiplier/ClearA_LoadB 
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 100ns -dutycycle 50 -starttime 0ns -endtime 1000ns Edit:/multiplier/Clk 
+wave modify -driver freeze -pattern constant -value St1 -starttime 75ns -endtime 100ns Edit:/multiplier/ClearA_LoadB 
+wave modify -driver freeze -pattern constant -value 11111101 -range 7 0 -starttime 0ns -endtime 1000ns Edit:/multiplier/S 
+wave modify -driver freeze -pattern constant -value 11111010 -range 7 0 -starttime 200ns -endtime 1000ns Edit:/multiplier/S 
+wave modify -driver freeze -pattern constant -value St1 -starttime 250ns -endtime 275ns Edit:/multiplier/Run 
+wave modify -driver freeze -pattern constant -value St1 -starttime 250ns -endtime 1000ns Edit:/multiplier/Run 
+WaveCollapseAll -1
+# 1
+wave clipboard restore
+
+wave modify -driver freeze -pattern constant -value St1 -starttime 75ns -endtime 150ns Edit:/multiplier/ClearA_LoadB
+add wave -position end  sim:/multiplier/Aval
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Lavin  Hostname: LAVIN-PC  ProcessID: 1384
+# 
+#           Attempting to use alternate WLF file "./wlftwhsrj3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftwhsrj3
+# 
+add wave -position end  sim:/multiplier/Bval
+run -all
+# ** Warning: (vsim-8315) C:/altera/13.0/ece298/6 final/control.sv(25): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/altera/13.0/ece298/6 final/control.sv(25): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/altera/13.0/ece298/6 final/control.sv(25): No condition is true in the unique/priority if/case statement.
+# 
